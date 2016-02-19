@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:id="@+id/toolbarContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Errors bar -->
+            <LinearLayout
+                android:id="@+id/toolbar_sub_error_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@color/colorBackgroundToolBar">
+                <TextView
+                    android:id="@+id/toolbarErrorText"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/abc_text_size_small_material"
+                    android:layout_centerInParent="true"
+                    android:text="@string/no_connection_alert"/>
+                <ImageButton
+                    android:id="@+id/errorCloseButton"
+                    android:layout_alignParentRight="true"
+                    android:padding="10dp"
+                    android:clickable="false"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@android:drawable/ic_dialog_alert"/>
+            </LinearLayout>
+            <!-- TOOLBAR -->
+            <android.support.v7.widget.Toolbar
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:id="@+id/toolbar"
+                android:layout_alignParentTop="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="?attr/actionBarSize"
+                android:background="?attr/colorPrimary">
+                <TextView
+                    android:id="@+id/toolbarTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/abc_text_size_title_material_toolbar"
+                    />
+
+            </android.support.v7.widget.Toolbar>
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>

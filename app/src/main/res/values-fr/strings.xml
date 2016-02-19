@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Météo Paris</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_paris_weather_details">Paris Météo Détails</string>
+    <string name="title_activity_paris_weather_base">Paris Météo</string>
+    <string name="no_connection_alert">Pas de connéxion disponible!</string>
+    <string name="date_temperature">Date</string>
+    <string name="weather">Méteo</string>
+    <string name="humidity">Humidité:</string>
+    <string name="rain">Précipitation:</string>
+    <string name="speed">Vitesse du vent:</string>
+    <string name="more_details">Plus de détails …</string>
+    <string name="loading_data_title">Téléchargement Données Météo</string>
+    <string name="loading_data_message">Le téléchargement de données météo est en cours..</string>
+    <string name="error_dialog_title">Erreur Reseau</string>
+    <string name="global_positive">Ok</string>
+    <string name="west">Ouest</string>
+    <string name="south">Sud</string>
+    <string name="east">L\'est</string>
+    <string name="north">Nord</string>
+    <string name="temperature">Température</string>
+    <string name="average_temperature">Temérature moyenne</string>
+    <string name="night">Température la nuit</string>
+    <string name="minimum">Température Minimal</string>
+    <string name="maximum">Température Maximal</string>
+    <string name="evening">Le soir</string>
+    <string name="morning">Le matin</string>
+    <string name="wind">Déplacement du vent</string>
+    <string name="wind_speed">Vitesse de vent</string>
+    <string name="clouds">Nuage</string>
+    <string name="direction_wind">Direction de Vent</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="pressure">Air Pressure</string>
+    <string name="humidity_text">Humidity</string>
+    <string name="data_weather_empty_message">Donnée Méteo Paris non disponible!</string>
+</resources>

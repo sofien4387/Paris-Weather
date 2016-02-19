@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Paris Weather</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_paris_weather_details">Paris Weather Details</string>
+    <string name="title_activity_paris_weather_base">Paris Weather</string>
+    <string name="no_connection_alert">No  available internet connection !</string>
+    <string name="date">Date</string>
+    <string name="weather">Weather</string>
+    <string name="humidity">Humidity:</string>
+    <string name="rain">Rain:</string>
+    <string name="speed">Speed:</string>
+    <string name="more_details">More Details ...</string>
+    <string name="loading_data_title">Loading weather data</string>
+    <string name="loading_data_message">Loading weather data..</string>
+    <string name="error_dialog_title">Network Error</string>
+    <string name="global_positive">Ok</string>
+    <string name="west">West</string>
+    <string name="south">South</string>
+    <string name="east">East</string>
+    <string name="north">North</string>
+    <string name="temperature">Temperature</string>
+    <string name="average_temperature">Average</string>
+    <string name="night">Night</string>
+    <string name="minimum">Minimum</string>
+    <string name="maximum">Maximum</string>
+    <string name="evening">Evening</string>
+    <string name="morning">Morning</string>
+    <string name="wind">Wind</string>
+    <string name="wind_speed">Speed</string>
+    <string name="clouds">Clouds</string>
+    <string name="direction_wind">Wind Direction</string>
+    <string name="air_pressure">Air Pressure</string>
+    <string name="pressure">Air Pressure</string>
+    <string name="humidity_text">Humidity</string>
+    <string name="data_weather_empty_message">NO WEATHER DATA AVAILABLE!</string>
+</resources>
