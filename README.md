@@ -1,6 +1,10 @@
 # Super-Android
 Simple Application to show state weather in current 5 days in on paris location.
-| External Library | Description |
-| --- | --- |
-| Sugar for ORM| used for manage the models class mapping |
-| Retrofit for  Network| used for manage the networking call |
+
+## Used libraries
+
+1. http://square.github.io/retrofit/  used for manage the models class mapping
+
+2. http://square.github.io/picasso/ used for manage the image loading
+
+3. https://github.com/satyan/sugar used for manage the models class mapping
