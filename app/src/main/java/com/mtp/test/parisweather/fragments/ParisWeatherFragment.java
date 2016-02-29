@@ -217,7 +217,7 @@ public class ParisWeatherFragment extends Fragment implements Callback<ModelWeat
 
         mDialog.showDialog();
 
-        Log.e(TAG, "Error occurred during receiving" + error.getMessage());
+        Log.e(TAG, "Error occurred during receiving" + error.getResponse().getReason());
     }
 
     @Override

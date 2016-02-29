@@ -31,11 +31,14 @@ public class ParisWeatherDAO {
     public void saveWeatherReportCache(ModelWeatherReport modelWR) {
 
         String name = modelWR.getCity().getName();
-        Coordinate coord = modelWR.getCity().getCoordinate();
+        Coordinate coordinate = modelWR.getCity().getCoordinate();
         String country = modelWR.getCity().getCountry();
         int population = modelWR.getCity().getPopulation();
 
-        City cityCache = new City(name, coord, country, population);
+        Coordinate cord =  new Coordinate(coordinate.getLon(),coordinate.getLat());
+        cord.save();
+
+        City cityCache = new City(name, cord, country, population);
         cityCache.save();
 
         List<ListWeather> lsW = modelWR.getListWeather();
